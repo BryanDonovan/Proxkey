@@ -1,0 +1,30 @@
+{
+  "name": "Proxkey",
+  "version": "0.0.1",
+  "description": "Proxy/Mock server for testing build on top of HAPI.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/Proxkey.git"
+  },
+  "keywords": [
+    "proxy",
+    "mock",
+    "server",
+    "node.js",
+    "hapi.js",
+    "Joi",
+    "BeatsMusic"
+  ],
+  "author": "Doron Segal",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/doron2402/Proxkey/issues"
+  },
+  "dependencies": {
+    "hapi": "~3.0.2"
+  }
+}
