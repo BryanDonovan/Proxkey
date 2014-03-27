@@ -20,7 +20,9 @@ Proxkey.Start({
 					"type": "application/json",
 					"type_failure": "applicaton/xml",
 					"data": "./partners/test/test_doc.json",
-					"data_failure": "./partners/test/test_doc.xml"
+					"data_failure": "./partners/test/test_doc.xml",
+					"code": 200,
+					"code_failure": 404
 				}
 			},{
 				request_url: "/a/c",
@@ -40,7 +42,9 @@ Proxkey.Start({
 					"type": "application/json",
 					"type_failure": "applicaton/xml",
 					"data": "./partners/test/test_doc.json",
-					"data_failure": "./partners/test/test_doc.xml"
+					"data_failure": "./partners/test/test_doc.xml",
+					"code": 200,
+					"code_failure": 404
 				}
 			}
 		]
