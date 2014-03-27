@@ -1,6 +1,5 @@
 var Proxkey = require('proxkey');
-
-Proxkey.Start({
+var RoutesConfiguration = {
 	configuration: {
 		host: 'localhost',
 		port: '9191'
@@ -20,8 +19,8 @@ Proxkey.Start({
 				response: {
 					"type": "application/json",
 					"type_failure": "applicaton/xml",
-					"data": "./partners/test/test_doc.json",
-					"data_failure": "./partners/test/test_doc.xml",
+					"data": "partners/test/test_doc.json",
+					"data_failure": "partners/test/test_doc.xml",
 					"code": 200,
 					"code_failure": 404
 				}
@@ -42,11 +41,31 @@ Proxkey.Start({
 				response: {
 					"type": "application/json",
 					"type_failure": "applicaton/xml",
-					"data": "./partners/test/test_doc.json",
-					"data_failure": "./partners/test/test_doc.xml",
+					"data": "partners/test/test_doc.json",
+					"data_failure": "partners/test/test_doc.xml",
 					"code": 200,
 					"code_failure": 404
 				}
+			},{
+				request_url: "/say/hi",
+				method: "POST",
+				params: {
+					"failure": [
+						{
+							"key": "name",
+							"value": "ben"
+						}
+					]
+				},
+				response: {
+					"type": "application/json",
+					"type_failure": "applicaton/json",
+					"data": "{ hi: 'Doron' }",
+					"data_failure": "{ hi: 'ben' }",
+					"code": 200,
+					"code_failure": 409
+				}
 			}
 		]
-	});
+	};
+Proxkey.Start(RoutesConfiguration);
