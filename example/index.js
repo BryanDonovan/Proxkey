@@ -18,8 +18,9 @@ Proxkey.Start({
 				},
 				response: {
 					"type": "application/json",
-					"data": "{data: 'success'}",
-					"data_faile": "{data: 'Fail'}"
+					"type_failure": "applicaton/xml"
+					"data": "./partners/test/test_doc.json",
+					"data_failure": "./partners/test/test_doc.xml"
 				}
 			},{
 				request_url: "/b/c",
@@ -35,7 +36,7 @@ Proxkey.Start({
 				response: {
 					"type": "application/json",
 					"data": "{data: 'success'}",
-					"data_faile": "{data: 'Fail'}"
+					"data_failure": "{data: 'Fail'}"
 				}
 			}
 		]
