@@ -23,20 +23,24 @@ Proxkey.Start({
 					"data_failure": "./partners/test/test_doc.xml"
 				}
 			},{
-				request_url: "/b/c",
+				request_url: "/a/c",
 				method: "POST",
 				params: {
 					"failure": [
 						{
 							"key": "phone_num",
 							"value": "9876543210"
+						},{
+							"key": "phone_num",
+							"value": "123123123"
 						}
 					]
 				},
 				response: {
 					"type": "application/json",
-					"data": "{data: 'success'}",
-					"data_failure": "{data: 'Fail'}"
+					"type_failure": "applicaton/xml",
+					"data": "./partners/test/test_doc.json",
+					"data_failure": "./partners/test/test_doc.xml"
 				}
 			}
 		]
