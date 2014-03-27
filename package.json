@@ -1,6 +1,6 @@
 {
-  "name": "Proxkey",
-  "version": "0.0.1",
+  "name": "proxkey",
+  "version": "0.0.0",
   "description": "Proxy/Mock server for testing build on top of HAPI.js",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "url": "https://github.com/doron2402/Proxkey/issues"
   },
   "dependencies": {
-    "hapi": "~3.0.2"
+    "hapi": "~3.0.2",
+    "lodash": "~2.4.1"
   }
 }
