@@ -18,7 +18,7 @@ Proxkey.Start({
 				},
 				response: {
 					"type": "application/json",
-					"type_failure": "applicaton/xml"
+					"type_failure": "applicaton/xml",
 					"data": "./partners/test/test_doc.json",
 					"data_failure": "./partners/test/test_doc.xml"
 				}
