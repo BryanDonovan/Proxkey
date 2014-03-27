@@ -9,6 +9,6 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "proxkey": "0.0.2"
+    "proxkey": "0.0.6"
   }
 }

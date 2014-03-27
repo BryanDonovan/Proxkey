@@ -1,4 +1,5 @@
-var Proxkey = require('proxkey').proxkey;
+var Proxkey = require('proxkey');
+
 Proxkey.Start({
 	configuration: {
 		host: 'localhost',

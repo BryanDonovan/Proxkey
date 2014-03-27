@@ -1,1 +1,1 @@
-exports.proxkey = require('./lib/');
+module.exports = require('./lib/');

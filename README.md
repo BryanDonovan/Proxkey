@@ -9,7 +9,7 @@
 ## How
 
 ### In order to start the proxy (You can always check the example).
-	
+
 	var Proxkey = require('proxkey');
 	var ConfigJson = {
 		configuration: {
