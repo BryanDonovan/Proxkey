@@ -8,8 +8,7 @@
 
 ## How
 
-### You can always check the example.
-### In order to start the proxy
+### In order to start the proxy (You can always check the example).
 	
 	var Proxkey = require('proxkey');
 	var ConfigJson = {
