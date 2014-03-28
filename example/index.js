@@ -14,6 +14,12 @@ var RoutesConfiguration = {
 							"key": "phone_num",
 							"value": "9876543210"
 						}
+					],
+					"production": [
+						{
+							"key": "phone_num",
+							"value": "5105105555"
+						}
 					]
 				},
 				response: {
@@ -21,6 +27,11 @@ var RoutesConfiguration = {
 					"type_failure": "applicaton/xml",
 					"data": "partners/test/test_doc.json",
 					"data_failure": "partners/test/test_doc.xml",
+					"data_production": {
+						"host": "httpbin.org",
+						"path": "/post",
+						"port": 80
+					},
 					"code": 200,
 					"code_failure": 404
 				}
