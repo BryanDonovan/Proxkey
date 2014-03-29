@@ -1,6 +1,10 @@
 # PROXKEY
 
 ## Mock/Proxy server its your call.
+## Options:
+	1. You can mock a successful response
+	2. You can mock a failure response
+	3. You can proxy the request to any url you want and get back the response.
 
 ## Why? or When to use?
 
