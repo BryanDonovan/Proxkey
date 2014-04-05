@@ -18,7 +18,7 @@
     "hapi.js",
     "Joi",
     "QA server",
-    "Testing server"
+    "Testing server",
     "BeatsMusic"
   ],
   "author": "Doron Segal",
