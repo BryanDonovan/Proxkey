@@ -2,7 +2,8 @@ var Proxkey = require("proxkey");
 var RoutesConfiguration = {
 	"configuration": {
 		"host": "localhost",
-		"port": "9191"
+		"port": "9191",
+		"log": true
 	},
 	"routes" : [
 			{
