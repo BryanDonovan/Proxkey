@@ -32,17 +32,17 @@ var RoutesConfiguration = {
 				"response": {
 					"something" :{
 						"type": "applicaton/xml",
-						"data": "partners/test/test_some_doc.xml",
+						"data": "/partners/test/test_some_doc.xml",
 						"code": 200
 					},
 					"failure" : {
 						"type": "applicaton/xml",
-						"data": "partners/test/test_doc.xml",
+						"data": "/partners/test/test_doc.xml",
 						"code": 200
 					},
 					"success" : {
 						"type": "application/json",
-						"data": "partners/test/test_doc.json",
+						"data": "/partners/test/test_doc.json",
 						"code": 200
 					},
 					"production": {
@@ -68,12 +68,12 @@ var RoutesConfiguration = {
 				"response": {
 					"success" : {
 						"type": "application/json",
-						"data": "partners/test/test_doc.json",
+						"data": "/partners/test/test_doc.json",
 						"code": 200
 					},
 					"failure" : {
 						"type": "applicaton/xml",
-						"data": "partners/test/test_doc.xml",
+						"data": "/partners/test/test_doc.xml",
 						"code": 404
 					}
 				}
