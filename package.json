@@ -1,6 +1,6 @@
 {
   "name": "proxkey",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Proxy/Mock server for testing build on top of HAPI.js",
   "main": "index.js",
   "scripts": {
