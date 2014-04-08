@@ -1,6 +1,6 @@
 {
   "name": "proxkey",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Proxy/Mock server for testing build on top of HAPI.js",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "hapi": "~3.0.2",
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "xml2js": "~0.4.2"
   }
 }

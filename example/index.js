@@ -2,7 +2,7 @@ var Proxkey = require("proxkey");
 var RoutesConfiguration = {
 	"configuration": {
 		"host": "localhost",
-		"port": "9191",
+		"port": "9091",
 		"log": true
 	},
 	"routes" : [
@@ -49,6 +49,40 @@ var RoutesConfiguration = {
 						"host": "httpbin.org",
 						"path": "/post",
 						"port": 80
+					}
+				}
+			},{
+				"request_url": "/xml/a",
+				"method": "POST",
+				"params": {
+					"failure": [
+						{
+							"key": "xmlFirstChild->xmlSecondChild",
+							"value": "9876543210"
+						}
+					],
+					"something": [
+						{
+							"key": "xmlFirstChild->xmlSecondChild",
+							"value": "8888888888"
+						}
+					]
+				},
+				"response": {
+					"something" :{
+						"type": "applicaton/json",
+						"data": "{\"data\": \"something\"}",
+						"code": 201
+					},
+					"failure" : {
+						"type": "applicaton/json",
+						"data": "{\"data\": \"failure\"}",
+						"code": 401
+					},
+					"success" : {
+						"type": "application/json",
+						"data": "{\"data\": \"success\"}",
+						"code": 200
 					}
 				}
 			},{

@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "proxkey example",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "proxkey": "0.1.6"
+    "proxkey": "0.2.0"
   }
 }
