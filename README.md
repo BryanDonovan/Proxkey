@@ -24,6 +24,7 @@
 ## How
 
 ### In order to start the proxy (You can always check the example).
+<pre><code>
 var Proxkey = require("proxkey");
 var RoutesConfiguration = {
 	"configuration": {
@@ -164,6 +165,6 @@ var RoutesConfiguration = {
 		]
 	};
 Proxkey.start(RoutesConfiguration);
-
+</pre></code>
 
 ## Good Luck!
