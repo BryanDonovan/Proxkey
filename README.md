@@ -1,5 +1,8 @@
 # PROXKEY
 
+## RELEASE NOTES
+	- Adding replace object with key & value so now we can change the value on the response automatically by the request.
+
 ## Mock/Proxy server its your call.
 	Proxkey will Mock or Proxy your REST or SOAP request.
 	When to use: let's say you need to test an integration to your system.

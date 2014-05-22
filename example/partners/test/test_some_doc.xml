@@ -2,5 +2,7 @@
 <note>
 	<to>Something...</to>
 	<asdf>blaaaaa</asdf>
+    <changeme>%Change%</changeme>
 	<body>Opps I did it again...</body>
+    <adsf>%Change%</adsf>
 </note>
